@@ -1,0 +1,10 @@
+export const API_KEY: string = "?api_key=441a2216b63d4214a2d96e3ae6423942";
+export const NEW_TOKEN: string = 'https://api.themoviedb.org/3/authentication/token/new';
+export const LOGIN: string = 'https://api.themoviedb.org/3/authentication/token/validate_with_login';
+export const BASE_URL: string = 'https://api.themoviedb.org/3';
+export const IMG_BASE_URL: string = 'https://image.tmdb.org/t/p/w500';
+export const GENRES_BASE_URL: string = 'https://api.themoviedb.org/3/genre/movie/list';
+export const BASE_SEARCH_URL: string = 'https://api.themoviedb.org/3/search/movie';
+export const BASE_MOVIE_URL: string = 'https://api.themoviedb.org/3/movie/';
+export const CREATE_SESSION: string = "https://api.themoviedb.org/3/authentication/session/new"
+export const UPCOMING: string = 'https://api.themoviedb.org/3/movie/upcoming';

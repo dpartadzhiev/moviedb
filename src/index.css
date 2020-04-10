@@ -1,0 +1,100 @@
+body {
+  background: #19002B;
+}
+
+a {
+  color: #49C49F;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+  background: none;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #707070;    
+  padding-left: 0;
+}
+
+button[type="submit"], .card button, .modal button {
+  border-radius: 0;
+  background: #392A47;
+  box-shadow: 0px 3px 6px #00000029;
+  border: none;
+  color: #D5D5D5;
+  font-size: 16px;
+  height: 50px;
+}
+
+.form-control:focus {
+  background: none;
+  box-shadow: none;
+  border-bottom: 1px solid #707070;
+}
+
+
+.logo {
+  width: 190px;
+  height: 190px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.page-title {
+  color: #392A47;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.info {
+  color: #707070;
+}
+
+/* Movies Page */
+
+.search-form input[type="text"] {
+  font-size: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.search-form .form-check-input {
+  background: #707070;
+  height: 18px;
+  width: 18px;
+}
+.search-form .form-check-label {
+  color: #BEBEBE;
+}
+
+.card {
+  background-color: #4B3957;
+  color: #BEBEBE;
+  font-size: 14px;
+}
+
+.card img {
+  width: 180px;
+  height: 270px;
+}
+
+.card-title {
+  font-size: 24px;
+}
+
+/* Modal */
+
+.modal-content {
+  background: #4B3957;
+  box-shadow: 3px 3px 10px #00000029;
+  color: #BEBEBE;
+  font-size: 14px;
+}
+
+.modal-content img {
+  width: 180px;
+  height: 270px;
+}
+
+.modal-content textarea {
+  border-radius: 0;
+  border: none;
+}
